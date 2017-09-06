@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>测试post用的</title>
+<script type="text/javascript" src="jquery.min-2.1.4.js"></script>
+</head>
+<body>
+	<form id="form_video_action" action="http://localhost:8080/Baratheon/education/video/action" method="post">
+		<div>video_id:<input name="video_id" value="5ab99b3874264832a80b8a1e5ee7858d"/></div>
+		<div>action:<input name="action" value="5ab99b3874264832a80b8a1e5ee7858d"/></div>
+		<div>process:<input name="process" value="5ab99b3874264832a80b8a1e5ee7858d"/><!-- 周期号 --></div>
+		<div>user_unid<input name="user_unid" value="5ab99b3874264832a80b8a1e5ee7858d"/><!-- 用户名 --></div>
+		<div><button type="submit">测试视频动作</button></div>
+	</form>
+	<div>
+		<a href="http://localhost:8080/Baratheon/education/dictionarie?structure=table">测试字典table</a>
+		<a href="http://localhost:8080/Baratheon/education/dictionarie?structure=tree">测试字典tree</a>
+	</div>
+	<div>
+		<a href="http://localhost:8080/Baratheon/education/video">视频检索</a>
+		<a href="http://localhost:8080/Baratheon/education/video/special">特殊视频检索</a>
+	</div>
+	<div>
+		<a href="http://localhost:8080/Baratheon/education/teacher">教师获取</a>
+	</div>
+	<div>
+		<a href="http://localhost:8080/Baratheon/education/information">咨询信息获取</a>
+	</div>
+	<div>
+		<a href="http://localhost:8080/Baratheon/education/video/play_url/video/2312">获取播放串</a>
+		<a href="http://localhost:8080/Baratheon/education/video/action/video">视频动作（post）</a>
+		<a href="http://localhost:8080/Baratheon/education/education/video">上传（post）</a>
+	</div>
+</body>
+<script>
+</script>
+</html>
